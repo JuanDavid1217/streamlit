@@ -58,3 +58,4 @@ st.write(f"Number of Records With Fare Between {fare_min} and {fare_max}: {subse
 st.dataframe(subset_fare)
 
 st.markdown("___")
+st.text("Hola este es un cambio para comprobar sincronizacion")
