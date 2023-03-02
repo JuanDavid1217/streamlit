@@ -59,3 +59,4 @@ st.dataframe(subset_fare)
 
 st.markdown("___")
 st.text("Hola este es un cambio para comprobar sincronizacion")
+st.text("Hola este es un cambio para comprobar sincronizacion2")
