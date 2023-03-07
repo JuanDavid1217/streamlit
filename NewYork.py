@@ -30,12 +30,13 @@ sd=st.sidebar
 sd.image("MiCredencial.jpg")
 sd.markdown("___")
 
+st.subheader("Info")
 if sd.checkbox('Mostrar Informacion cargada'):
-    st.subheader('Mostrar')
     st.subheader("Información Cargada")
     st.write(data)
 
 sd.markdown("___")
+st.subheader("Mapa")
 st.markdown("___")
 
 if sd.checkbox('Recorridos por hora'):
