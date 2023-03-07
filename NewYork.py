@@ -48,8 +48,8 @@ if sd.checkbox('Recorridos por hora'):
 sd.markdown("___")
 st.markdown("___")
 
-st.subheader("Selecciona el rango de hora")
-filtrarporHora = st.slider('hora', 0, 23, 1)
+sd.subheader("Selecciona el rango de hora")
+filtrarporHora = sd.slider('hora', 0, 23, 1)
 valores_filtrados = data[data[DATE_COLUMN].dt.hour == filtrarporHora]
 
 st.subheader('Mapas de recorridos iniciados a las %s:00' % filtrarporHora)
