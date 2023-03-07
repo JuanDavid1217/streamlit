@@ -38,6 +38,7 @@ if sd.checkbox('Mostrar Informacion cargada'):
 sd.markdown("___")
 
 st.markdown("___")
+st.subheader("Mapa")
 
 if sd.checkbox('Recorridos por hora'):
     st.subheader('Número de recorridos por hora')
@@ -47,7 +48,7 @@ if sd.checkbox('Recorridos por hora'):
 
 
 sd.markdown("___")
-st.subheader("Mapa")
+
 st.markdown("___")
 
 sd.subheader("Selecciona el rango de hora")
